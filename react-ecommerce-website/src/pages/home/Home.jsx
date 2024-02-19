@@ -1,8 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import Banner from "./Banner";
+import Category from "./Category";
+import Products from "./Products";
 
 const Home = () => {
-  return <div> Home</div>;
+  return (
+    <div>
+      <Banner />
+      <Category />
+      <Products />
+    </div>
+  );
 };
 
 export default Home;
