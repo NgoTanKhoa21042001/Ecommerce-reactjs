@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const companyLogo = [
-  { id: 1, img: "../../../public/images/categories/brand-1.png" },
-  { id: 2, img: "../../../public/images/categories/01.png" },
-  { id: 3, img: "../../../public/images/categories/02.png" },
-  { id: 4, img: "../../../public/images/categories/brand-1.png" },
-  { id: 5, img: "../../../public/images/categories/04.png" },
+  { id: 1, img: "../../../images/categories/brand-1.png" },
+  { id: 2, img: "../../../images/categories/01.png" },
+  { id: 3, img: "../../../images/categories/02.png" },
+  { id: 4, img: "../../../images/categories/brand-1.png" },
+  { id: 5, img: "../../../images/categories/04.png" },
 ];
 
 const Category = () => {
@@ -27,7 +27,7 @@ const Category = () => {
         <div className="">
           <Link to="/">
             <img
-              src="../../../public/images/categories/card.png"
+              src="../../../images/categories/card.png"
               alt=""
               className="w-full hover:scale-105 transition-all duration-200"
             />
@@ -36,22 +36,16 @@ const Category = () => {
         <div className="md:w-1/2">
           <div className="grid grid-cols-2 gap-2">
             <Link to="/">
-              <img
-                src="../../../public/images/categories/card (1).png"
-                alt=""
-              />
+              <img src="../../../images/categories/card (1).png" alt="" />
             </Link>
             <Link to="/">
-              <img src="../../../public/images/categories/03.png" alt="" />
+              <img src="../../../images/categories/03.png" alt="" />
             </Link>
             <Link to="/">
-              <img
-                src="../../../public/images/categories/card (2).png"
-                alt=""
-              />
+              <img src="../../../images/categories/card (2).png" alt="" />
             </Link>
             <Link to="/">
-              <img src="../../../public/images/categories/20.png" alt="" />
+              <img src="../../../images/categories/20.png" alt="" />
             </Link>
           </div>
         </div>
